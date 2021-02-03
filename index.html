@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css"> 
+
+@font-face {
+   font-family: sinhala-note;
+   src: url(file:///home/dhanushka/Downloads/SARIGAMA.woff);
+}
+
+.sin{
+   font-family: sinhala-note;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>Select your Notation</h1>
+
+<button onclick="f1(this)" value='q' class="sin" >q</button>
+<button onclick="f1(this)" value='e' class="sin" >e</button>
+<button onclick="f1(this)" value='t' class="sin" >t</button>
+<button onclick="f1(this)" value='y' class="sin" >y</button>
+<button onclick="f1(this)" value='i' class="sin" >i</button>
+<button onclick="f1(this)" value='p' class="sin" >p</button>
+<button onclick="f1(this)" value=']' class="sin" >]</button>
+
+<h3>High Notation</h3>
+<button onclick="f1(this)" value='a' class="sin" >a</button>
+<button onclick="f1(this)" value='d' class="sin" >d</button>
+<button onclick="f1(this)" value='g' class="sin" >g</button>
+<button onclick="f1(this)" value='h' class="sin" >h</button>
+<button onclick="f1(this)" value='k' class="sin" >k</button>
+<button onclick="f1(this)" value=';' class="sin" >;</button>
+<button onclick="f1(this)" value='\' class="sin" >\</button>
+
+<p id="demo" class="sin" ></p>
+
+
+<script>
+function f1(objButton){  
+document.getElementById("demo").innerHTML = objButton.value;   
+
+}
+
+
+
+</script>
+</body>
+</html>
+
